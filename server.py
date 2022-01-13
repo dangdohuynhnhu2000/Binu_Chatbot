@@ -8,7 +8,7 @@ from weather import Get_Weather, Get_Temp, prov_data
 from covid import Get_Covid_Data
 import os
 
-f = open('Data.json', encoding="utf-8")
+f = open('data/Data.json', encoding="utf-8")
 data = json.load(f)
 f.close()
 

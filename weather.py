@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 
-f = open('province_code.json', encoding="utf-8")
+f = open('data/province_code.json', encoding="utf-8")
 prov_data = json.load(f)
 f.close()
 
