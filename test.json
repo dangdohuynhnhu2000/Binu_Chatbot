@@ -1,0 +1,152 @@
+[
+    {"tag": "weather",
+        "parterns": ["Cho mình biết tình hình thời tiết ở TPHCM hôm nay?", "Thời tiết TPHCM hôm nay thế nào?"]
+    },
+    {"tag": "temp",
+        "parterns": ["Nhiệt độ Hà Nội hôm nay thế nào?", "Hôm nay Cà Mau bao nhiêu độ?"]
+    },
+    {"tag": "covid_general",
+        "parterns": ["Tình hình dịch bệnh hôm nay ra sao?", "Tình trạng covid hôm nay trên cả nước như thế nào?"]
+    },
+    {"tag": "cases_yesterday",
+        "parterns": ["Cho biết số người mất vì covid hôm qua?", "Số ca nhiễm covid-19 ở Đồng Nai hôm nay?"]
+    },
+    {"tag": "deaths_yesterday",
+        "parterns": ["Có bao nhiêu ca tử vong vì covid hôm qua?", "Số người chết vì covid-19 ở Đà Nẵng hôm qua?"]
+    },
+    {"tag": "total_cases",
+        "parterns": ["Tổng số ca mắc bệnh covid-19 tính từ trước tới nay?", "Cho biết tổng cộng số người nhiễm bệnh covid-19 ở Việt Nam?"]
+    },
+    {"tag": "total_deaths",
+        "parterns": ["Tổng số ca tử vong trên toàn quốc?", "Cho biết số ca chết vì covid tính đến hiện tại?"]
+    },
+    {"tag": "hello",
+        "parterns": ["Xin chào cậu!", "Hi bạn!"]
+    },
+    {"tag": "goodbye",
+        "parterns": ["Chào tạm biệt bạn!", "Tạm biệt nha!"]
+    },
+    {"tag": "age",
+        "parterns": ["Bạn bao nhiêu tuổi rồi ta?", "Bạn mấy tuổi rồi? Cho mình biết được không?"]
+    },
+    {"tag": "name",
+        "parterns": ["Tên của cậu là gì?", "Nói mình biết tên bạn được không?"]
+    },
+    {"tag": "gender",
+        "parterns": ["Giới tính của bạn là nữ hả?", "Bạn có giới tính không?"]
+    },
+    {"tag": "hobby",
+        "parterns": ["Cho mình biết sở thích của bạn đi!", "Bình thường bạn hay làm gì lúc rảnh?"]
+    },
+    {"tag": "birthday",
+        "parterns": ["Sinh nhật của bạn là ngày nào đó?", "Bạn sinh vào ngày nào?"]
+    },
+    {"tag": "food",
+        "parterns": ["Món ăn yêu thích của cậu là gì á?", "Bạn thường thích ăn món gì vậy?"]
+    },
+    {"tag": "drink",
+        "parterns": ["Món đồ uống yêu thích của cậu là gì á?", "Bình thường bạn hay uống đồ uống gì?"]
+    },
+    {"tag": "timeforbed",
+        "parterns": ["Rồi mấy giờ cậu mới đi ngủ?", "Thường bạn hay ngủ vào lúc mấy giờ?"]
+    },
+    {"tag": "getup",
+        "parterns": ["Thường thì mấy giờ cậu mới thức dậy?", "Bạn hay dậy vào lúc nào?"]
+    },
+    {"tag": "goodnight",
+        "parterns": ["Thôi ngủ ngon nghen!", "Ngủ ngon. Mơ về mình nhé!"]
+    },
+    {"tag": "assurance",
+        "parterns": ["Bạn có chắc không vậy?", "Thật không đó?"]
+    },
+    {"tag": "why",
+        "parterns": ["Tại sao vậy ta?", "Ủa sao vậy?"]
+    },
+    {"tag": "compliment",
+        "parterns": ["Thật là thông minh quá đi!", "Bạn quá tuyệt vời luôn!"]
+    },
+    {"tag": "greeting",
+        "parterns": ["Dạo này sao rồi?", "Khỏe không?"]
+    },
+    {"tag": "thanks",
+        "parterns": ["Cảm ơn rất nhiều!", "Ngàn lần cảm ơn bạn!"]
+    },
+    {"tag": "doing",
+        "parterns": ["Giờ này bạn đang làm gì?", "Đang làm gì đó cậu?"]
+    },
+    {"tag": "meal",
+        "parterns": ["Bạn ăn cơm chưa?", "Ăn sáng chưa?"]
+    },
+    {"tag": "career",
+        "parterns": ["Nghề nghiệp của cậu là gì?", "Cậu làm nghề gì vậy?"]
+    },
+    {"tag": "whoyouare",
+        "parterns": ["Cậu là ai?", "Mình không biết cậu là ai."]
+    },
+    {"tag": "whoami",
+        "parterns": ["Thế bạn biết mình là ai không?", "Đố bạn nha! Mình là ai?"]
+    },
+    {"tag": "appearance",
+        "parterns": ["Bạn thấy mình đẹp không?", "Tui có dễ thương không nè!"]
+    },
+    {"tag": "botcharacterizer",
+        "parterns": ["Tính cách bạn thế nào?", "Bạn là người thế nào?"]
+    },
+    {"tag": "usercharacterizer",
+        "parterns": ["Cậu thấy tớ thế nào?", "Bạn nhận xét mình là người thế nào?"]
+    },
+    {"tag": "status",
+        "parterns": ["Có bạn trai bạn gái gì chưa?", "Đã có người yêu hay còn độc thân?"]
+    },
+    {"tag": "address",
+        "parterns": ["Anh nhà ở đâu dấy?", "Cho xin địa chỉ đê!"]
+    },
+    {"tag": "express",
+        "parterns": ["Yêu cậu quá đi!", "Mình thích bạn lắm!"]
+    },
+    {"tag": "subject",
+        "parterns": ["Thích học môn nào nhất?", "Môn bạn thích học nhất ở trường?"]
+    },
+    {"tag": "hometown",
+        "parterns": ["Quê của cậu ở tỉnh nào?", "Bạn quê ở đâu vậy?"]
+    },
+    {"tag": "school",
+        "parterns": ["Cậu là sinh viên trường nào?", "Bạn học trường nào đấy?"]
+    },
+    {"tag": "faculty",
+        "parterns": ["Bạn là sinh viên của khoa nào?", "Bạn đang học khoa nào?"]
+    },
+    {"tag": "grade",
+        "parterns": ["Ủa bạn là sinh viên năm mấy rồi?", "Bạn học tới năm thứ mấy rồi?"]
+    },
+    {"tag": "major",
+        "parterns": ["Chuyên ngành của bạn là gì?", "Bạn thuộc chuyên ngành bộ môn nào?"]
+    },
+    {"tag": "singer",
+        "parterns": ["Ca sĩ mà bạn thấy hay nhất?", "Bạn hay nghe những bản nhạc của ca sĩ nào vậy?"]
+    },
+    {"tag": "idol",
+        "parterns": ["Thần tượng của cậu là ai?", "Nói nhỏ cho mình biết tên idol của bạn đi!"]
+    },
+    {"tag": "musicband",
+        "parterns": ["Nhóm nhạc thần tượng của cậu là nhóm nào?", "Nhóm nhạc nào mà bạn hay nghe nhất?"]
+    },
+    {"tag": "musicgenre",
+        "parterns": ["Thể loại nhạc mà bạn thường nghe là gì?", "Bạn ưa thích loại nhạc gì?"]
+    },
+    {"tag": "song",
+        "parterns": ["Ca khúc yêu thích của cậu là gì?", "Bản nhạc nào mà bạn hay nghe vào những dịp đặc biệt?"]
+    },
+    {"tag": "actoractress",
+        "parterns": ["Tên một diễn viên bạn thấy diễn xuất hay.", "Bạn thấy diễn viên nào hay nhất."]
+    },
+    {"tag": "film",
+        "parterns": ["Nói tên bộ phim mà cậu yêu thích.", "Phim bạn thích xem nhất tên là gì?"]
+    },
+    {"tag": "pet",
+        "parterns": ["Bạn thích con vật nào nhất?", "Bạn có thích động vật không? Bạn thích loài nào nhất?"]
+    },
+    {"tag": "flower",
+        "parterns": ["Bạn thích loại hoa nào?", "Loài hoa bạn yêu nhất?"]
+    }
+]

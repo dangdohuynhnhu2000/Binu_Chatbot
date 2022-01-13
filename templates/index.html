@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css.css')}}" /> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form>
+        <!-- <img src="../static/left.png" id="leftGhost"> -->
+        <div class="center">
+            <div class="chat">
+                <div class="contact bar">
+                    <img id="logo" src="../static/logo.png" alt="logo">
+                    <img id="logotext" src="../static/logo_text.png" alt="Binu Chatbot">
+                </div>
+                <div id="chatbox" class="messages">
+                    <div class="time">
+                        Today at 11:41
+                    </div>                </div>
+                <div id="userInput" class="row input">
+                    <input id="text" type="text" name="msg" placeholder="Soạn tin nhắn" class="form-control">
+                    <button type="submit" id="send" class="btn send-btn"><img src="../static/btn.png"/></button>
+
+                    <!-- <button type="submit" id="send" class="btn btn-warning">Send</button> -->
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- <img src="../static/right.png" id="rightGhost"> -->
+
+<script>
+    const chatbox = document.getElementById("chatbox");
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            var rawText = $("#text").val();
+            var userHtml = '<div class="message parker">' + rawText + "</div>";
+            $("#text").val("");
+            $("#chatbox").append(userHtml);
+            const scrollToBottom = (node) => {
+                node.scrollTop = node.scrollHeight;
+            }
+            
+            chatbox.scrollTop = chatbox.scrollHeight
+            $.ajax({
+                data: {
+                    msg: rawText,
+                },
+                type: "POST",
+                url: "/get",
+            }).done(function(data) {
+                var botHtml = '<div class="message stark">' + data + "</div>";
+                $("#chatbox").append($.parseHTML(botHtml));
+                chatbox.scrollTop = chatbox.scrollHeight
+            });
+            event.preventDefault();
+        });
+    });
+</script>
+</body>
+
+</html>
